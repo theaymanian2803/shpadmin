@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-
+  base: '/shpadmin/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

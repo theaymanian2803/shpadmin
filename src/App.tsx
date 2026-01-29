@@ -23,7 +23,7 @@ const App = () => (
         <CartProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter basename="/coffeshopadmin">
+          <BrowserRouter basename="/shpadmin">
             <CartDrawer />
             <Routes>
               <Route path="/" element={<Index />} />
